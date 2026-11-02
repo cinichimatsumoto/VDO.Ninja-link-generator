@@ -1,0 +1,76 @@
+{
+  "version": 2,
+  "base_url": "https://vdo.ninja",
+  "room": "TestLive231129",
+  "password": "231129",
+  "scene": "1",
+  "output_dir": "",
+  "phone_count": 4,
+  "id_prefix": "cam",
+  "label_prefix": "Cam",
+  "use_suffix": true,
+  "suffix": "u5pk",
+  "phones": [
+    {
+      "id": "cam1_u5pk",
+      "label": "Cam 1"
+    },
+    {
+      "id": "cam2_u5pk",
+      "label": "Cam 2"
+    },
+    {
+      "id": "cam3_u5pk",
+      "label": "Cam 3"
+    },
+    {
+      "id": "cam4_u5pk",
+      "label": "Cam 4"
+    }
+  ],
+  "options": {
+    "phone": {
+      "view": true,
+      "webcam": true,
+      "autostart": true,
+      "label": true,
+      "quality": "0",
+      "fps": "30",
+      "noscale": true,
+      "outboundvideobitrate": "12000",
+      "proaudio": true,
+      "flagship": true,
+      "retry": true,
+      "consent": true,
+      "remote": true,
+      "signalmeter": true,
+      "batterymeter": true,
+      "nosettings": true,
+      "nohangupbutton": true,
+      "nomicbutton": true,
+      "novideobutton": true,
+      "nospeakerbutton": true,
+      "hidemenu": true,
+      "cleanoutput": true,
+      "lanonly": true
+    },
+    "obs": {
+      "solo": true,
+      "codec": "h265,av1,h264,vp9",
+      "videobitrate": "12000",
+      "sharper": true,
+      "retry": true,
+      "cleanoutput": true,
+      "lanonly": true
+    },
+    "director": {
+      "remote": true,
+      "graphs": true,
+      "cleandirector": true
+    }
+  },
+  "extra": {
+    "phone": "",
+    "obs": ""
+  }
+}
